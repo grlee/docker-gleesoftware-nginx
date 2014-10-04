@@ -1,4 +1,6 @@
 FROM dockerfile/nginx
+MAINTAINER dockerfiles@gleesoftware.com "George Lee"
+
 ADD nginx.conf /etc/nginx/nginx.conf
 
 # Define mountable directories.
